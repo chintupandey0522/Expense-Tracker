@@ -1,0 +1,120 @@
+╔══════════════════════════════════════════════════════════╗
+║          PERSONAL EXPENSE TRACKER  v1.0                 ║
+║          Module 9 | Lab Class 12                        ║
+╚══════════════════════════════════════════════════════════╝
+
+  Loading demo data for testing...
+  [✓] 12 demo expense(s) loaded.
+
+  Checking for saved data...
+  [INFO] No saved data found ('expenses.dat').
+
+  ┌───────────────────────────────────────┐
+  │            MAIN MENU                  │
+  ├───────────────────────────────────────┤
+  │  1. Add New Expense                   │
+  │  2. Display All Expenses              │
+  │  3. Generate Monthly Report           │
+  │  4. Highest Expense Category          │
+  │  5. Save Expenses to File             │
+  │  6. Load Expenses from File           │
+  │  7. Exit                              │
+  └───────────────────────────────────────┘
+  Enter your choice: 1
+
+  ── Add New Expense ─────────────────────────────
+  Enter amount (Rs.): 750
+  Available categories:
+    1. Food
+    2. Transport
+    3. Entertainment
+    4. Health
+    5. Shopping
+    6. Education
+    7. Utilities
+    8. Others
+  Enter category name: Health
+  Enter date (dd-MM-yyyy) [press Enter for today]:
+  Enter description: Pharmacy medicines
+  [✓] Expense of Rs.750.00 added under 'Health'.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Enter your choice: 2
+
+  ╔══════════════════════════════════════════════════════════════╗
+  ║               ALL RECORDED EXPENSES                         ║
+  ╠════════════╦════════════════╦════════════════╦═══════════════╣
+  ║ Date       ║ Category       ║ Amount (Rs.)   ║ Description   ║
+  ╠════════════╬════════════════╬════════════════╬═══════════════╣
+  01-11-2024   | Food           | Rs.450.00      | Restaurant dinner
+  02-11-2024   | Transport      | Rs.120.00      | Bus & auto fare
+  05-11-2024   | Shopping       | Rs.1800.00     | New shirt & jeans
+  08-11-2024   | Health         | Rs.600.00      | Doctor consultation
+  10-11-2024   | Entertainment  | Rs.250.00      | Movie tickets
+  15-11-2024   | Food           | Rs.300.00      | Groceries
+  18-11-2024   | Transport      | Rs.90.00       | Cab ride
+  20-11-2024   | Education      | Rs.500.00      | Online course book
+  25-11-2024   | Utilities      | Rs.1200.00     | Electricity bill
+  03-12-2024   | Food           | Rs.350.00      | Lunch & dinner
+  10-12-2024   | Shopping       | Rs.2500.00     | Winter jacket
+  20-12-2024   | Entertainment  | Rs.400.00      | OTT subscription
+  25-05-2025   | Health         | Rs.750.00      | Pharmacy medicines
+  ╚════════════╩════════════════╩════════════════╩═══════════════╝
+                                          Total: Rs.9310.00
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Enter your choice: 3
+
+  ── Monthly Report ──────────────────────────────
+  Enter month (1-12): 11
+  Enter year (e.g. 2024): 2024
+
+  ══════════════════════════════════════════════════
+  Monthly Report: NOVEMBER 2024
+  ══════════════════════════════════════════════════
+  Category         Amount (Rs.)
+  ──────────────────────────────────────────────────
+  Food             Rs.750.00
+  Transport        Rs.210.00
+  Entertainment    Rs.250.00
+  Health           Rs.600.00
+  Shopping         Rs.1800.00
+  Education        Rs.500.00
+  Utilities        Rs.1200.00
+  ──────────────────────────────────────────────────
+  TOTAL            Rs.5310.00
+  Total Transactions: 9
+  ══════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Enter your choice: 4
+
+  ── Spending Analysis ────────────────────────────
+  Category         Total (Rs.)
+  ─────────────────────────────────────────────────
+  Shopping         Rs.4300.00
+  Utilities        Rs.1200.00
+  Health           Rs.1350.00
+  Food             Rs.1100.00
+  Entertainment    Rs.650.00
+  Education        Rs.500.00
+  Transport        Rs.210.00
+  ─────────────────────────────────────────────────
+  Highest Spending Category: Shopping (Rs.4300.00)
+  ─────────────────────────────────────────────────
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Enter your choice: 5
+  [OK] Expenses saved to 'expenses.dat'.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Enter your choice: 7
+
+  Save expenses before exiting? (y/n): n
+
+  Thank you for using Personal Expense Tracker. Goodbye!
